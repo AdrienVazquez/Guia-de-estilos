@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.encabezado {
+    background-color: #00aeef;
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    position: fixed;
+}
+
+.contenedor {
+    display: table;
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 24px;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f2f7f9;
+    z-index: 5;
+}
+
+.columna1 {
+    display: table-cell;
+    width: 30%;
+    border-right: 4px double rgba(0, 0, 0, 0.2);
+    border-radius: 24px 0 0 24px;
+}
+
+.columna2 {
+    display: table-cell;
+    width: 30%;
+    border-right: 4px double rgba(0, 0, 0, 0.2);
+}
+
+.columna3 {
+    display: table-cell;
+    width: 30%;
+    border-radius: 0 24px 24px 0;
+}
+
+.subtitulo {
+    margin: 80px;
+    text-align: center;
+    color: #00aeef;
+    font-size: 36px;
+}
+
+.gris {
+    background: #8F8F8F;
+}
+
+.verde {
+    background: #3F8C3E;
+}
+
+.azul {
+    background: #0509EB;
+}
+
+.rojo {
+    background: #EB0109;
+}
+
+.amarillo {
+    background: #EBE100;
+}
+
+.negro {
+    background: #000000;
+}
+
+.color {
+    padding: 16px;
+    color: white;
+    text-align: center;
+    margin: 24px;
+    width: 100px;
+    border-radius: 5px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.articulo {
+    margin: 100px auto;
+    padding: 5px;
+}
+
+.color:hover {
+    opacity: 0.8;
+}
+
+.subtitulo:hover {
+    text-decoration: underline;
+}
+
+.titulo-texto {
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00aeef;
+}
+
+.parrafo {
+    color: #525e61;
+    text-align: center;
+}
+
+.pie {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.pie p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.invisible {
+    height: 150px;
+    width: 100%;
+}
